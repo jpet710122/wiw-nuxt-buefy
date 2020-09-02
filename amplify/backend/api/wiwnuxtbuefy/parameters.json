@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "wiwnuxtbuefy",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authwiwnuxtbuefyad418699",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

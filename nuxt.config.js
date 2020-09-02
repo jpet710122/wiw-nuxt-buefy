@@ -35,7 +35,8 @@ export default {
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: [
-    { src: '@/plugins/draggable'},
+    { src: '@/plugins/draggable' },
+    { src: '~/plugins/amplify.js', mode: 'client' },
   ],
   /*
    ** Auto import components

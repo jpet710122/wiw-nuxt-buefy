@@ -1,0 +1,14 @@
+type Doc @model {
+  id: ID!
+  name: String!
+  address: String!
+  dob: AWSDate
+  type: String!
+  docdate: AWSDate!
+  photoid: String
+  other: String
+  contact: String!
+  createdBy: String!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
